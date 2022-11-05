@@ -11,8 +11,8 @@ To determine if the linear regression slope is zero or not zero we use this synt
   - Ho : The slope of the linear model is zero, or m = 0
   - Ha : The slope of the linear model is not zero, or m ≠ 0
   
- If there is no significant linear relationship there would be a flat line with a slop of 0, essentially Ho or m=0. If there is a significant linear relationship thre would be a slope higher than 0, essentially Ha or m /= 0.
+ If there is no significant linear relationship there would be a flat line with a slop of 0, essentially Ho or m=0. If there is a significant linear relationship thre would be a slope higher than 0, essentially Ha or m /= 0. In the case of this linear regression the slope, labeled as "Intercept" in R is a value of -1. Therefore, the slope is considered to not be zero.
 
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 ![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/Summary_Function.png)
-To predict the effeciveness of the linear model we have to view the r-squared(r2) value, as this is the coefficient and determines how well the model data can apply to real world data points. An r-squared will typically range from 0 to 1. For the mpg linear regression the "Multiple R-Squared" metric was 0.7149 (see image above). This number falls within the 0 to 1 range demonstrating effectivness and application to real world data. Essentially, proving this linear regression statistically shound.
+To predict the effeciveness of the linear model we have to view the r-squared(r2) value, as this is the coefficient and determines how well the model data can apply to real world data points. An r-squared will typically range from 0 to 1. For the mpg linear regression the "Multiple R-Squared" metric was 0.7149 (see image above). This number falls within the 0 to 1 range demonstrating effectivness and application to real world data. Essentially, proving this linear regression statistically sound.
