@@ -16,3 +16,14 @@ To determine if the linear regression slope is zero or not zero we use this synt
 ### Does this linear model predict mpg of MechaCar prototypes effectively? Why or why not?
 ![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/Summary_Function.png)
 To predict the effeciveness of the linear model we have to view the r-squared(r2) value, as this is the coefficient and determines how well the model data can apply to real world data points. An r-squared will typically range from 0 to 1. For the mpg linear regression the "Multiple R-Squared" metric was 0.7149 (see image above). This number falls within the 0 to 1 range demonstrating effectivness and application to real world data. Essentially, proving this linear regression statistically sound.
+
+## Summary Statistics on Suspension Coils
+### The design specifications for the MechaCar suspension coils dictate that the variance of the suspension coils must not exceed 100 pounds per square inch. Does the current manufacturing data meet this design specification for all manufacturing lots in total and each lot individually? Why or why not?
+![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/Total_Summary.png)
+![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/Lot_Summary.png)
+
+Based on the design specifications for the MechCar suspension coils the "Total_Summary" (first image) indicates that the total pounds per square inch are within 100 pounds of presure. Therefore, on the total all the manufactoring lots meet this design specifications.
+
+In comparison, looking at the "Lot_Summary" (second image) you can see that of the three lots only Lot1 and Lot2 are within the appropriate amount of variance. Lot1 has a variance of 0.97 and Lot2 has a 7.469 variance. What this means is because the variance of the data points are so close to the mean of "0" they have small variance which is prefered. However, Lot3 has a variance of 107.28. This indicates a high variance and that the data points are spread out in Lot3 cars. This is not prefered. 
+
+Essentiall the "Total_Summary" = meets standards and "Lot_Summary" = doesn't meet standards.
