@@ -28,3 +28,8 @@ Based on the design specifications for the MechCar suspension coils the "Total_S
 In comparison, looking at the "Lot_Summary" you can see that of the three lots only Lot1 and Lot2 are within the appropriate amount of variance. Lot1 has a variance of 0.97 and Lot2 has a 7.469 variance. What this means is because the variance of the data points are so close to the mean of "0" they have small variance which is prefered. However, Lot3 has a variance of 107.28. This indicates a high variance and that the data points are spread out in Lot3 cars. This is not prefered. 
 
 Essentiall the "Total_Summary" = meets standards and "Lot_Summary" = doesn't meet standards.
+
+## T-Tests on Suspension Coils
+![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/T_Test.png)
+
+The important value to look at for the T-Test is the "p-value". Based on the image above after running the T-Test to show if the PSI across all manufacoring lots is statistically different from the population mean of 1,500 pounds per square inch, it is determined that the p-value is above the significance level. A common significance level is 0.05%. The T-Test has a 0.9% p-value provind there is not sufficient evidence to reject the null hypothese because the two means are statistically similar.
