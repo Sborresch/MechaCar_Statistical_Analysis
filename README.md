@@ -32,20 +32,27 @@ Essentiall the "Total_Summary" = meets standards and "Lot_Summary" = doesn't mee
 ## T-Tests on Suspension Coils
 ![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/T_Test.png)
 
-The important value to look at for the T-Test is the "p-value". Based on the image above after running the T-Test to show if the PSI across all manufacoring lots is statistically different from the population mean of 1,500 pounds per square inch, it is determined that the p-value is above the significance level. A common significance level is 0.05%. The T-Test has a 0.9% p-value provind there is not sufficient evidence to reject the null hypothese because the two means are statistically similar.
+The important value to look at for the T-Test is the "p-value". Based on the image above after running the T-Test to show if the PSI across all manufacoring lots is statistically different from the population mean of 1,500 pounds per square inch, it is determined that the p-value is above the significance level. A common significance level is 0.05%. The T-Test has a 0.06% p-value provind there is not sufficient evidence to reject the null hypothesis because the two means are statistically similar.
+
+Below are the t-tests for each individual subset manufactoring lots. Of Lot1, Lot2 and Lot3 the only one to be within the 0.05% significance level is Lot3. Therefore the other two are not sufficient evidenct to reject the null hypothesis and for Lot3 we would accept the null hypothesis.
+![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/Lot_1.png)
+![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/Lot_2.png)
+![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/Lot_3.png)
 
 ## Study Design: MechaCar vs Competition
-Goal: illustrate how MechaCar competes better than the competition vehicles based on consumer preferences.
+Goal: illustrate how MechaCar competes better than the competition vehicles based on statistically significant consumer preferences.
 
 Test Metrics:
  - Cost
  - Fuel Efficiency
  - Style
- - Safety Rating
- - Number of Seats
  
- Null Hypothesis:
+Null Hypothesis: Cost, fuel efficiency, and style have no affect on customers choosing vehicles.
  
  Statistical Tests:
+ - Develop a primary level database of vehicle data for Mecha Care and competition.
+ - Run linear regression to predict consumer preference.
+ - Create a dataframe for mean, median, variance and standard deviation for population consumer preferences and for each preference individually.
+ - Run a t-test on each preference
  
- Data:
+Data: The data needed for the datasource includes the cost, fuel efficiency, style of MechaCar and competitions vehicles, national survey data for consumer preferences, manufactorer, make, and model.
