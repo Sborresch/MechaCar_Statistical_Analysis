@@ -22,8 +22,17 @@ total_summary <- suspension_coil %>% group_by() %>% summarize(Mean=mean(PSI), Me
 #Deliverable 2 Step 4 
 lot_summary <- suspension_coil %>% group_by(Manufacturing_Lot) %>% summarize(Mean=mean(PSI), Median=median(PSI),Variance=var(PSI),SD=sd(PSI), .groups = 'keep')
 
+#Deliverable 3 Step 1
+t.test(log10(lot_summary$Mean), mu=mean(log10(total_summary$Mean)))
 
+#Deliverable 3 Step 2 - Lot 1
+t.test(log10(lot_summary$Mean), mu=mean(log10(total_summary$Mean)), subset(Manufactoring_Lot$Lot1))
 
+t.test(log10(subset(lot_summary$Manufacturing_Lot$Lot1)), mu=mean(log10(total_summary$Mean)))
+       
+#Deliverable 3 Step 2 - Lot 2
+
+#Deliverable 3 Step 2 - Lot 3
 
 
 
