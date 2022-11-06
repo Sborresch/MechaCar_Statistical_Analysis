@@ -37,3 +37,15 @@ The important value to look at for the T-Test is the "p-value". Based on the ima
 ## Study Design: MechaCar vs Competition
 Goal: illustrate how MechaCar competes better than the competition vehicles based on consumer preferences.
 
+Test Metrics:
+ - Cost
+ - Fuel Efficiency
+ - Style
+ - Safety Rating
+ - Number of Seats
+ 
+ Null Hypothesis:
+ 
+ Statistical Tests:
+ 
+ Data:
