@@ -33,3 +33,7 @@ Essentiall the "Total_Summary" = meets standards and "Lot_Summary" = doesn't mee
 ![Screenshot](https://github.com/Sborresch/MechaCar_Statistical_Analysis/blob/main/T_Test.png)
 
 The important value to look at for the T-Test is the "p-value". Based on the image above after running the T-Test to show if the PSI across all manufacoring lots is statistically different from the population mean of 1,500 pounds per square inch, it is determined that the p-value is above the significance level. A common significance level is 0.05%. The T-Test has a 0.9% p-value provind there is not sufficient evidence to reject the null hypothese because the two means are statistically similar.
+
+## Study Design: MechaCar vs Competition
+Goal: illustrate how MechaCar competes better than the competition vehicles based on consumer preferences.
+
